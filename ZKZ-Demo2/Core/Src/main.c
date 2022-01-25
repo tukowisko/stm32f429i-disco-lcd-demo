@@ -147,12 +147,9 @@ int main(void)
   /* turn on  green led */
   HAL_GPIO_WritePin(GPIOG, LD3_Pin, GPIO_PIN_SET);
 
-
   tk_grs_clear();
   tk_grs_testscreen();
-
   tk_printf("Please press blue button to add a next line.\n");
-
 
   /* USER CODE END 2 */
 
