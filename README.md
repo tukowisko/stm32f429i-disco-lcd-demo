@@ -19,7 +19,7 @@ Import the project into STM32CubeIDE workspace using *File/Open Projects from Fi
 
 If you want, you can modify STM32CubeMX project and generate a code again. All code was written between USER CODE BEGIN/USER CODE END clauses so above operation do not remove added code.
 
-![usage](/Resources/ZKZ-Demo2-usage1.jpg)
+![usage](/ZKZ-Demo2/Resources/ZKZ-Demo2-usage1.jpg)
 
 #
 
