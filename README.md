@@ -1,4 +1,4 @@
-# stm32f429i-disco-demo2
+# stm32f429i-disco-lcd-demo
 LCD demo for STM32F429I-DISCO board to use with STM32Cube software
 
 # Introduction
