@@ -69,8 +69,8 @@ all: main-build
 main-build: ZKZ-Demo2.elf secondary-outputs
 
 # Tool invocations
-ZKZ-Demo2.elf: $(OBJS) $(USER_OBJS) T:\Realizacje\ wlasne\ -\ git\ZKZ-Demo2\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ZKZ-Demo2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"T:\Realizacje wlasne - git\ZKZ-Demo2\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ZKZ-Demo2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ZKZ-Demo2.elf: $(OBJS) $(USER_OBJS) T:\Realizacje\ wlasne\stm32f429i-disco-lcd-demo\ZKZ-Demo2\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ZKZ-Demo2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"T:\Realizacje wlasne\stm32f429i-disco-lcd-demo\ZKZ-Demo2\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ZKZ-Demo2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
