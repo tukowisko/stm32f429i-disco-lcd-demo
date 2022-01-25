@@ -1,7 +1,0 @@
-tk_grs.c:48:6:tk_drawchars	48	static
-tk_grs.c:87:6:tk_grs_fillrect	96	static
-tk_grs.c:101:6:tk_console_next_line	32	static
-tk_grs.c:138:6:tk_console_append	32	static
-tk_grs.c:185:6:tk_grs_clear	16	static
-tk_grs.c:194:6:tk_grs_testscreen	24	static
-tk_grs.c:211:6:tk_printf	80	static
