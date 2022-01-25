@@ -1,3 +1,0 @@
-tk_inits.c:44:9:TK_ILI9341_Cmd	24	static
-tk_inits.c:74:6:TK_ILI9341_Init	104	static
-tk_inits.c:154:6:TK_DIMM_InitSequence	24	static
